@@ -20,6 +20,8 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
+    "body-parser": "latest",
+    "builtin-status-codes": "^3.0.0",
     "express": "^4.17.1"
   }
 }
