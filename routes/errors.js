@@ -13,13 +13,13 @@ export function handleInternalError(err, req, res, next) {
     }</h1>`;
     html += `<p>${err.message}</p>`;
 
-    res.send(err.code, html);
+    res.status(err.code).send(html);
   } else {
     console.error(err.stack);
-    res.send(500, '<h1>500 - Internal Server Error</h1>');
+    res.status(500).send('<h1>500 - Internal Server Error</h1>');
   }
 }
 
 export function handleNotFound(req, res, next) {
-  res.send(404, '<h1>404 - Page Not Found</h1>');
+  res.status(404).send('<h1>404 - Page Not Found</h1>');
 }

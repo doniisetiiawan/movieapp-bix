@@ -12,7 +12,8 @@ import { handleNotFound, handleInternalError } from './routes/errors';
 const app = express();
 const port = 3000;
 
-app.use(bodyParser());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 app.use(express.static(`${__dirname}/public`));
 
 const movie = new Movie(process.env.API_KEY);
