@@ -772,6 +772,11 @@ acorn@^7.1.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
   integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
+after@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/after/-/after-0.8.2.tgz#fedb394f9f0e02aa9768e702bda23b505fae7e1f"
+  integrity sha1-/ts5T58OAqqXaOcCvaI7UF+ufh8=
+
 ajv@^6.10.0, ajv@^6.10.2:
   version "6.12.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.0.tgz#06d60b96d87b8454a5adaba86e7854da629db4b7"
@@ -905,6 +910,11 @@ async-each@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha512-z/WhQ5FPySLdvREByI2vZiTWwCnF0moMJ1hK9YQwDTHKh6I7/uSckMetoRGb5UBZPC1z0jlw+n/XCgjeH7y1AQ==
+
+async-series@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/async-series/-/async-series-0.0.1.tgz#5024d757f38b04296e1f8a1fca4a364b57dc52ec"
+  integrity sha1-UCTXV/OLBCluH4ofyko2S1fcUuw=
 
 async@^1.5.2:
   version "1.5.2"
@@ -1331,6 +1341,11 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
+custom-err@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/custom-err/-/custom-err-0.0.2.tgz#9453c99cf39cb1021190297660fe9ac19d928cb8"
+  integrity sha1-lFPJnPOcsQIRkCl2YP6awZ2SjLg=
+
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -1474,6 +1489,11 @@ error-ex@^1.2.0:
   integrity sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==
   dependencies:
     is-arrayish "^0.2.1"
+
+errto@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/errto/-/errto-0.2.1.tgz#d6e23b37261f84ed869695f77b4fb7e06c647848"
+  integrity sha1-1uI7NyYfhO2GlpX3e0+34GxkeEg=
 
 es-abstract@^1.17.0, es-abstract@^1.17.0-next.1:
   version "1.17.4"
@@ -4009,6 +4029,11 @@ xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
   integrity sha1-SWsswQnsqNus/i3HK2A8F8WHCtQ=
+
+xtend@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
+  integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 yallist@^2.1.2:
   version "2.1.2"
