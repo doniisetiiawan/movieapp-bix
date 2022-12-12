@@ -27,7 +27,7 @@
     "custom-err": "^0.0.2",
     "dotenv": "^8.2.0",
     "errto": "^0.2.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moviedb": "^0.2.10",
     "xtend": "^4.0.2"
   }
